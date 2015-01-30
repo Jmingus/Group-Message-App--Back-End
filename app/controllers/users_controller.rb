@@ -26,7 +26,7 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(user_params)
-
+    @user.message = @user.filter
     if @user.save
       respond_to do |format|
         format.html { redirect_to root_path, notice: 'User was successfully created.' }
