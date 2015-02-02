@@ -1,0 +1,31 @@
+
+
+GROUP MESSAGE APP:
+
+Overview:
+	
+	The "hAPIchat" API is built to service the users and content passed through the "hAPIchat" app.
+
+	The platform is relatively simple to use with each user profile being denoted by an numerical ID. Within each ID is the following information about the User's inputted content:
+
+		username:
+		message:
+		chatroom:
+		time_stamp:
+
+Example code:
+
+ 
+	// This is an example of the json output of the "hAPIchat" API.
+	 {
+	   "id": 1,
+	   "username": "Herby",
+	   "message": "Hello",
+	   "chatroom": "iron",
+	   "time_stamp": "Created at 01/29/2015 at 11:29AM",
+	   "url": "https://group-message4792.herokuapp.com/users/1.json"
+	    },
+
+Reference material:
+
+	https://group-message4792.herokuapp.com/users.json
